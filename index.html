@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/1.png">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <title>风语起始页</title>
+</head>
+<body id="box">
+    <div class="bodybox">
+        <span class="box1" id="box1"></span>
+        <img src="" id="bgbox">
+        <div id="date">
+            <p><span id="dateText"></span><span id="dateText_s"></span></p>
+            <p><span id="dateText_y"></span></p>
+        </div>
+        <div id="search">
+            <input type="text" id="searchText" size="30" autocomplete="off">
+            <div class="searchOptBox">
+                <span class="searchOpt" id="baiduSearch" title="百度">
+                    <i class="iconfont">&#xe66b;</i>
+                </span>
+                <span class="searchOpt" id="sougouSearch" title="搜狗">
+                    <i class="iconfont">&#xe956;</i>
+                </span>
+                <span class="searchOpt" id="bingSearch" title="必应">
+                    <i class="iconfont">&#xe600;</i>
+                </span>
+                <span class="searchOpt" id="googleSearch" title="谷歌">
+                    <i class="iconfont">&#xeeda;</i>
+                </span>
+            </div>
+        </div>
+        <div class="saying">
+            <p class="content"></p>
+            <p class="zuozhe"></p>
+        </div>
+        <div id="botton">
+            <img src="img/fengche.png" title="切换背景" onclick="randomback()">
+        </div>
+        <script src="js/jsclass.js"></script>
+        <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    </div>
+</body>
+</html>
